@@ -1,2 +1,3 @@
 # プログラミングコンテスト チャレンジブック
-Rubyで書いてみた
+Chapter2の途中までRuby
+knapsack_2からGolangでやってみる
