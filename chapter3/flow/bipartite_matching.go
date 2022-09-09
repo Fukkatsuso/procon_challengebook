@@ -20,7 +20,7 @@ func (g Graph) DFS(v int, match []int, used []bool) bool {
 	used[v] = true
 	for _, u := range g[v] {
 		w := match[u]
-		if (w < 0 || !used[w]) && g.DFS(w, match, used) {
+		if w < 0 || (!used[w] && g.DFS(w, match, used)) {
 			match[v] = u
 			match[u] = v
 			return true
