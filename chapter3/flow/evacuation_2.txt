@@ -1,0 +1,7 @@
+5
+12
+XXXXXXXXXXXX
+X..........D
+X.XXXXXXXXXX
+X..........X
+XXXXXXXXXXXX
