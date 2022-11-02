@@ -20,12 +20,12 @@ func NewGraph(n int, root int) *Graph {
 }
 
 type GraphLCA struct {
-	graph  Graph
+	graph  *Graph
 	parent [][]int
 	depth  []int
 }
 
-func NewGraphLCA(g Graph) *GraphLCA {
+func NewGraphLCA(g *Graph) *GraphLCA {
 	V := len(g.edge)
 	maxLogV := int(math.Ceil(math.Log2(float64(V))))
 
